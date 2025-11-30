@@ -28,6 +28,8 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <sonar.organization>altanguevenberlin</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <dependencies>
         <dependency>
@@ -66,7 +68,6 @@
             <version>1.0.0</version>
         </dependency> <!-- Bootcamp-Hilfsdependency (Fallback-Page). In echten Projekten / GitHub-Portfolios entfernen und eigene Config nutzen. -->
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
