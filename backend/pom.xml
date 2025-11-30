@@ -60,6 +60,11 @@
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>de.neuefische.java</groupId>
+            <artifactId>spring-boot-starter-fallback-page</artifactId>
+            <version>1.0.0</version>
+        </dependency> <!-- Bootcamp-Hilfsdependency (Fallback-Page). In echten Projekten / GitHub-Portfolios entfernen und eigene Config nutzen. -->
     </dependencies>
 
     <build>
